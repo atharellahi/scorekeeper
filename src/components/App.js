@@ -20,7 +20,7 @@ const App = () => {
             setp1score(p1score + 1);
             setwinloseone('winner');
             setwinlosetwo('loser');
-            setactiveval(true)
+            setactiveval(true);
         }
         else {
             setp1score(p1score);
