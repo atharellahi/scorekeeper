@@ -1,0 +1,94 @@
+* {
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.winner {
+    color: green;
+}
+
+.loser {
+    color: red;
+}
+
+body {
+    display: flex;
+    justify-content:flex-start;
+    flex-direction:column;
+    align-items: flex-start;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/874/132/original/abstract-geometric-white-background-free-vector.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+div#root {
+    padding: 1%;
+    align-self: center;
+    background-color: rgb(60, 60, 60);
+    width: 25%;
+    height: auto;
+    box-shadow: 0 10px 20px 10px rgba(0, 0, 0, .7);
+    border-radius: .2rem;
+}
+
+div#root div {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+@media (min-width:410px) {}
+
+header {
+    height: 20%;
+color: azure;
+    border-bottom: 3px  solid black;
+    
+}
+
+b {
+    font-size: 100px;
+    color: azure;
+}
+
+div#root div div.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 10%;
+}
+
+#playvaluediv {
+    margin: 5% 0px;
+    height: 10%;
+}
+
+label {
+    margin: 2% 0%;
+    color: azure;
+}
+
+button {
+    margin: 0;
+    flex-grow: 1;
+}
+
+@media (max-width:1005px) {
+
+    div#root div div.buttons {
+        flex-direction: column;
+    }
+
+    button {
+        width: 100%;
+    }
+}
